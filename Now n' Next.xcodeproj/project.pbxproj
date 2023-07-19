@@ -17,6 +17,8 @@
 		3C72F3B22A65BC0C00F46F16 /* Health and Wellness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3B12A65BC0C00F46F16 /* Health and Wellness.swift */; };
 		3C72F3B42A65BC1E00F46F16 /* Planning for Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3B32A65BC1E00F46F16 /* Planning for Future.swift */; };
 		3C72F3B62A65BC2800F46F16 /* Civil Engagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3B52A65BC2800F46F16 /* Civil Engagement.swift */; };
+		3CCE00862A68266D00853935 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00852A68266D00853935 /* Persistence.swift */; };
+		3CCE00892A68276500853935 /* Now n' Next.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		3C72F3B12A65BC0C00F46F16 /* Health and Wellness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health and Wellness.swift"; sourceTree = "<group>"; };
 		3C72F3B32A65BC1E00F46F16 /* Planning for Future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Planning for Future.swift"; sourceTree = "<group>"; };
 		3C72F3B52A65BC2800F46F16 /* Civil Engagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Civil Engagement.swift"; sourceTree = "<group>"; };
+		3CCE00852A68266D00853935 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3CCE00882A68276400853935 /* Now n' Next.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Now n' Next.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				3C72F3852A65BBDE00F46F16 /* Now_n__NextApp.swift */,
+				3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */,
 				3C72F3AF2A65BBFE00F46F16 /* Home.swift */,
 				3C72F3B12A65BC0C00F46F16 /* Health and Wellness.swift */,
+				3CCE00852A68266D00853935 /* Persistence.swift */,
 				3C72F3B32A65BC1E00F46F16 /* Planning for Future.swift */,
 				3C72F3B52A65BC2800F46F16 /* Civil Engagement.swift */,
 				3C72F3892A65BBDF00F46F16 /* Assets.xcassets */,
@@ -269,7 +275,9 @@
 				3C72F3B22A65BC0C00F46F16 /* Health and Wellness.swift in Sources */,
 				3C72F3B42A65BC1E00F46F16 /* Planning for Future.swift in Sources */,
 				3C72F3B02A65BBFE00F46F16 /* Home.swift in Sources */,
+				3CCE00862A68266D00853935 /* Persistence.swift in Sources */,
 				3C72F3862A65BBDE00F46F16 /* Now_n__NextApp.swift in Sources */,
+				3CCE00892A68276500853935 /* Now n' Next.xcdatamodeld in Sources */,
 				3C72F3B62A65BC2800F46F16 /* Civil Engagement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,6 +597,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CCE00882A68276400853935 /* Now n' Next.xcdatamodel */,
+			);
+			currentVersion = 3CCE00882A68276400853935 /* Now n' Next.xcdatamodel */;
+			path = "Now n' Next.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3C72F37A2A65BBDE00F46F16 /* Project object */;
 }

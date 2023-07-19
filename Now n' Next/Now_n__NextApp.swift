@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Now_n__NextApp: App {
+    let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
-            Home()
+            Home().environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
