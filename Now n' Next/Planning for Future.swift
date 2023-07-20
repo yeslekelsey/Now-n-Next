@@ -16,49 +16,71 @@ struct Planning_For_Future: View {
     @State private var misc = ""
     var body: some View {
         ZStack {
-            Color(hue: 0.475, saturation: 0.308, brightness: 0.91)
+            Color(red: 0.9686274509803922, green: 0.8509803921568627, blue: 0.6313725490196078)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Text("Contents")
-                HStack {
-                    Button("article 1") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                    }
-                    Button("article 2") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                    }
-                    Button("article 3") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                Group {
+                    HStack {
+                        Image("logo")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                        Spacer()
+                        Text("Budgeting")
+                            .font(.title)
+                            .fontWeight(.black)
+                    } .padding()
+                    Text("Learn how to budget and manage your personal finances! Check out any of the 3 articles! After that, you can put your skills to use by planning your own budget below!")
+                        .font(.headline)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                }
+                Group {
+                    Text("Resources")
+                        .font(.title)
+                    HStack {
+                        Link("How to Budget",
+                              destination: URL(string: "https://www.nerdwallet.com/article/finance/how-to-budget")!)
+                        Link("Creating a Budget",
+                              destination: URL(string: "https://bettermoneyhabits.bankofamerica.com/en/saving-budgeting/creating-a-budget")!)
+                        Link("Personal Finance",
+                              destination: URL(string: "https://www.investopedia.com/terms/p/personalfinance.asp")!)
+                        NavigationLink(destination: BudgetQuiz()) {
+                            
                     }
                 }
-                    NavigationLink(destination: BudgetQuiz()) {
-                        Text("Take a quiz!")
+                Group {
+                    Text("Take a quiz!")
+                }
+                    
                 }
                 Text(".......................................................................")
-                HStack {
-                    Text("My Budget")
-                    TextField("Enter amount here...", text: $budget)
-                }
-                HStack {
-                    Text("Food")
-                    TextField("Enter amount here...", text: $food)
-                }
-                HStack {
-                    Text("Bills")
-                    TextField("Enter amount here...", text: $bills)
-                }
-                HStack {
-                    Text("Other needs")
-                    TextField("Enter amount here...", text: $need)
-                }
-                HStack {
-                    Text("Wants")
-                    TextField("Enter amount here...", text: $want)
-                }
-                HStack {
-                    Text("Miscellaneous")
-                    TextField("Enter amount here...", text: $misc)
-                }
+                Group {
+                    HStack {
+                        Text("My Budget")
+                        TextField("Enter amount here...", text: $budget)
+                    }
+                    HStack {
+                        Text("Food")
+                        TextField("Enter amount here...", text: $food)
+                    }
+                    HStack {
+                        Text("Bills")
+                        TextField("Enter amount here...", text: $bills)
+                    }
+                    HStack {
+                        Text("Other needs")
+                        TextField("Enter amount here...", text: $need)
+                    }
+                    HStack {
+                        Text("Wants")
+                        TextField("Enter amount here...", text: $want)
+                    }
+                    HStack {
+                        Text("Miscellaneous")
+                        TextField("Enter amount here...", text: $misc)
+                    }
+                } .padding()
+                
             }
         }
     }
