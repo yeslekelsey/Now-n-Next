@@ -25,8 +25,19 @@ struct Health_and_Wellness: View {
                                       .font(.largeTitle)
                                       .fontWeight(.black)
                               } .padding()
-                              Text("Insert caption here...")
+                              Text("Globally, 1 out of 7 people aged 10-19 suffer from mental disorders. If you are struggling, don't be afraid to reach out.")
                                   .font(.headline)
+                                  .multilineTextAlignment(.center)
+                              
+                          } .padding()
+                          Group {
+                              Image("prevention hotline")
+                                  .resizable(resizingMode: .stretch)
+                                  .aspectRatio(contentMode: .fit)
+                              Link("SAMSHA's National Hotline",
+                                    destination: URL(string: "https://www.samhsa.gov/find-help/national-helpline")!)
+                              Link("Tips on Managing Mental Health",
+                                    destination: URL(string: "https://www.mentalhealth.org.uk/explore-mental-health/publications/our-best-mental-health-tips")!)
                               Spacer()
                           }
                           Group {
@@ -41,7 +52,7 @@ struct Health_and_Wellness: View {
 
                               }
 
-                          }
+                          } .padding()
                       }
                   }
               }

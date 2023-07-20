@@ -18,6 +18,7 @@
 		3CCDB7DA2A69904E00B1A145 /* Health and Wellness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB7D92A69904E00B1A145 /* Health and Wellness.swift */; };
 		3CCDB7DC2A69905E00B1A145 /* Planning For Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB7DB2A69905E00B1A145 /* Planning For Future.swift */; };
 		3CCDB7DE2A69911700B1A145 /* BudgetQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB7DD2A69911700B1A145 /* BudgetQuiz.swift */; };
+		3CCDB7E32A69B58800B1A145 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3CCDB7E22A69B58800B1A145 /* FLAnimatedImage */; };
 		3CCE00862A68266D00853935 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00852A68266D00853935 /* Persistence.swift */; };
 		3CCE00892A68276500853935 /* Now n' Next.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */; };
 		3CDC79DD2A69807000F41DE1 /* AQ Question 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC79DC2A69807000F41DE1 /* AQ Question 1.swift */; };
@@ -75,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCDB7E32A69B58800B1A145 /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,11 +123,11 @@
 				3C72F3852A65BBDE00F46F16 /* Now_n__NextApp.swift */,
 				3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */,
 				3C72F3AF2A65BBFE00F46F16 /* Home.swift */,
-				3CCDB7DD2A69911700B1A145 /* BudgetQuiz.swift */,
 				3CCDB7D92A69904E00B1A145 /* Health and Wellness.swift */,
 				3CDC79E42A69868500F41DE1 /* Health Quiz */,
 				3CCE00852A68266D00853935 /* Persistence.swift */,
 				3CCDB7DB2A69905E00B1A145 /* Planning For Future.swift */,
+				3CCDB7DD2A69911700B1A145 /* BudgetQuiz.swift */,
 				3C72F3B52A65BC2800F46F16 /* Civil Engagement.swift */,
 				3CDC79DE2A69843000F41DE1 /* Advocacy Quiz */,
 				3C72F3892A65BBDF00F46F16 /* Assets.xcassets */,
@@ -195,6 +197,9 @@
 			dependencies = (
 			);
 			name = "Now n' Next";
+			packageProductDependencies = (
+				3CCDB7E22A69B58800B1A145 /* FLAnimatedImage */,
+			);
 			productName = "Now n' Next";
 			productReference = 3C72F3822A65BBDE00F46F16 /* Now n' Next.app */;
 			productType = "com.apple.product-type.application";
@@ -267,6 +272,9 @@
 				Base,
 			);
 			mainGroup = 3C72F3792A65BBDE00F46F16;
+			packageReferences = (
+				3CCDB7E12A69B58800B1A145 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = 3C72F3832A65BBDE00F46F16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -641,6 +649,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CCDB7E12A69B58800B1A145 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CCDB7E22A69B58800B1A145 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CCDB7E12A69B58800B1A145 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */ = {
