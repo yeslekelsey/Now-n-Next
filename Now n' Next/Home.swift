@@ -36,7 +36,7 @@ struct Home: View {
                     }
                     }
                     .padding(7.0)
-                    NavigationLink(destination: Planning_for_Future()) {
+                    NavigationLink(destination: Planning_For_Future()) {
                         Text("Budgeting")
                             .foregroundColor(Color(red: 0.5294117647058824, green: 0.7137254901960784, blue: 0.6549019607843137))
                             .padding()

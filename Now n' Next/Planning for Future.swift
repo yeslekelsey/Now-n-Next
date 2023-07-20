@@ -7,33 +7,65 @@
 
 import SwiftUI
 
-struct Planning_for_Future: View {
+struct Planning_For_Future: View {
+    @State private var budget = ""
+    @State private var food = ""
+    @State private var bills = ""
+    @State private var need = ""
+    @State private var want = ""
+    @State private var misc = ""
     var body: some View {
         ZStack {
-            Color(red: 0.9686274509803922, green: 0.8509803921568627, blue: 0.6313725490196078)
+            Color(hue: 0.475, saturation: 0.308, brightness: 0.91)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Group {
-                    HStack {
-                        Image("logo")
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                        Spacer()
-                        Text("Health & Wellness")
-                            .font(.largeTitle)
-                            .fontWeight(.black)
-                    } .padding()
-                    Text("Insert caption here...")
-                        .font(.headline)
-                    Spacer()
+                Text("Contents")
+                HStack {
+                    Button("article 1") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
+                    Button("article 2") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
+                    Button("article 3") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
+                }
+                    NavigationLink(destination: BudgetQuiz()) {
+                        Text("Take a quiz!")
+                }
+                Text(".......................................................................")
+                HStack {
+                    Text("My Budget")
+                    TextField("Enter amount here...", text: $budget)
+                }
+                HStack {
+                    Text("Food")
+                    TextField("Enter amount here...", text: $food)
+                }
+                HStack {
+                    Text("Bills")
+                    TextField("Enter amount here...", text: $bills)
+                }
+                HStack {
+                    Text("Other needs")
+                    TextField("Enter amount here...", text: $need)
+                }
+                HStack {
+                    Text("Wants")
+                    TextField("Enter amount here...", text: $want)
+                }
+                HStack {
+                    Text("Miscellaneous")
+                    TextField("Enter amount here...", text: $misc)
                 }
             }
         }
     }
 }
 
-struct Planning_for_Future_Previews: PreviewProvider {
+struct Planning_For_Future_Previews: PreviewProvider {
     static var previews: some View {
-        Planning_for_Future()
+        Planning_For_Future()
     }
 }

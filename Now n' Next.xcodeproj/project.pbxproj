@@ -14,9 +14,10 @@
 		3C72F3A12A65BBDF00F46F16 /* Now_n__NextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3A02A65BBDF00F46F16 /* Now_n__NextUITests.swift */; };
 		3C72F3A32A65BBDF00F46F16 /* Now_n__NextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3A22A65BBDF00F46F16 /* Now_n__NextUITestsLaunchTests.swift */; };
 		3C72F3B02A65BBFE00F46F16 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3AF2A65BBFE00F46F16 /* Home.swift */; };
-		3C72F3B22A65BC0C00F46F16 /* Health and Wellness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3B12A65BC0C00F46F16 /* Health and Wellness.swift */; };
-		3C72F3B42A65BC1E00F46F16 /* Planning for Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3B32A65BC1E00F46F16 /* Planning for Future.swift */; };
 		3C72F3B62A65BC2800F46F16 /* Civil Engagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F3B52A65BC2800F46F16 /* Civil Engagement.swift */; };
+		3CCDB7DA2A69904E00B1A145 /* Health and Wellness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB7D92A69904E00B1A145 /* Health and Wellness.swift */; };
+		3CCDB7DC2A69905E00B1A145 /* Planning For Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB7DB2A69905E00B1A145 /* Planning For Future.swift */; };
+		3CCDB7DE2A69911700B1A145 /* BudgetQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB7DD2A69911700B1A145 /* BudgetQuiz.swift */; };
 		3CCE00862A68266D00853935 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00852A68266D00853935 /* Persistence.swift */; };
 		3CCE00892A68276500853935 /* Now n' Next.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */; };
 		3CDC79DD2A69807000F41DE1 /* AQ Question 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC79DC2A69807000F41DE1 /* AQ Question 1.swift */; };
@@ -55,9 +56,10 @@
 		3C72F3A02A65BBDF00F46F16 /* Now_n__NextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Now_n__NextUITests.swift; sourceTree = "<group>"; };
 		3C72F3A22A65BBDF00F46F16 /* Now_n__NextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Now_n__NextUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3C72F3AF2A65BBFE00F46F16 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		3C72F3B12A65BC0C00F46F16 /* Health and Wellness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health and Wellness.swift"; sourceTree = "<group>"; };
-		3C72F3B32A65BC1E00F46F16 /* Planning for Future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Planning for Future.swift"; sourceTree = "<group>"; };
 		3C72F3B52A65BC2800F46F16 /* Civil Engagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Civil Engagement.swift"; sourceTree = "<group>"; };
+		3CCDB7D92A69904E00B1A145 /* Health and Wellness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Health and Wellness.swift"; sourceTree = "<group>"; };
+		3CCDB7DB2A69905E00B1A145 /* Planning For Future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Planning For Future.swift"; sourceTree = "<group>"; };
+		3CCDB7DD2A69911700B1A145 /* BudgetQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetQuiz.swift; sourceTree = "<group>"; };
 		3CCE00852A68266D00853935 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3CCE00882A68276400853935 /* Now n' Next.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Now n' Next.xcdatamodel"; sourceTree = "<group>"; };
 		3CDC79DC2A69807000F41DE1 /* AQ Question 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AQ Question 1.swift"; sourceTree = "<group>"; };
@@ -119,10 +121,11 @@
 				3C72F3852A65BBDE00F46F16 /* Now_n__NextApp.swift */,
 				3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */,
 				3C72F3AF2A65BBFE00F46F16 /* Home.swift */,
-				3C72F3B12A65BC0C00F46F16 /* Health and Wellness.swift */,
+				3CCDB7DD2A69911700B1A145 /* BudgetQuiz.swift */,
+				3CCDB7D92A69904E00B1A145 /* Health and Wellness.swift */,
 				3CDC79E42A69868500F41DE1 /* Health Quiz */,
 				3CCE00852A68266D00853935 /* Persistence.swift */,
-				3C72F3B32A65BC1E00F46F16 /* Planning for Future.swift */,
+				3CCDB7DB2A69905E00B1A145 /* Planning For Future.swift */,
 				3C72F3B52A65BC2800F46F16 /* Civil Engagement.swift */,
 				3CDC79DE2A69843000F41DE1 /* Advocacy Quiz */,
 				3C72F3892A65BBDF00F46F16 /* Assets.xcassets */,
@@ -306,16 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCDB7DA2A69904E00B1A145 /* Health and Wellness.swift in Sources */,
 				3CDC79E02A69857500F41DE1 /* AQ Question 2.swift in Sources */,
-				3C72F3B22A65BC0C00F46F16 /* Health and Wellness.swift in Sources */,
 				3CDC79DD2A69807000F41DE1 /* AQ Question 1.swift in Sources */,
 				3CDC79EA2A6986CA00F41DE1 /* HQ Question 3.swift in Sources */,
-				3C72F3B42A65BC1E00F46F16 /* Planning for Future.swift in Sources */,
+				3CCDB7DC2A69905E00B1A145 /* Planning For Future.swift in Sources */,
 				3C72F3B02A65BBFE00F46F16 /* Home.swift in Sources */,
 				3CDC79E82A6986B200F41DE1 /* HQ Question 2.swift in Sources */,
 				3CDC79E22A6985E700F41DE1 /* AQ Question 3.swift in Sources */,
 				3CCE00862A68266D00853935 /* Persistence.swift in Sources */,
 				3C72F3862A65BBDE00F46F16 /* Now_n__NextApp.swift in Sources */,
+				3CCDB7DE2A69911700B1A145 /* BudgetQuiz.swift in Sources */,
 				3CDC79E62A6986A400F41DE1 /* HQ Question 1.swift in Sources */,
 				3CCE00892A68276500853935 /* Now n' Next.xcdatamodeld in Sources */,
 				3C72F3B62A65BC2800F46F16 /* Civil Engagement.swift in Sources */,
