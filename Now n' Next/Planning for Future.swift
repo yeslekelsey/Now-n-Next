@@ -9,7 +9,26 @@ import SwiftUI
 
 struct Planning_for_Future: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color(red: 0.9686274509803922, green: 0.8509803921568627, blue: 0.6313725490196078)
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                Group {
+                    HStack {
+                        Image("logo")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                        Spacer()
+                        Text("Health & Wellness")
+                            .font(.largeTitle)
+                            .fontWeight(.black)
+                    } .padding()
+                    Text("Insert caption here...")
+                        .font(.headline)
+                    Spacer()
+                }
+            }
+        }
     }
 }
 
