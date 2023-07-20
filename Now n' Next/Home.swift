@@ -9,12 +9,12 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
+        NavigationStack {
         ZStack {
-            Color(hue: 1.0, saturation: 0.133, brightness: 1.0)
+            Color(red: 0.9686274509803922, green: 0.7803921568627451, blue: 0.6980392156862745)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                NavigationStack {
-                    Image("title")
+                Image("title")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                     HStack {
