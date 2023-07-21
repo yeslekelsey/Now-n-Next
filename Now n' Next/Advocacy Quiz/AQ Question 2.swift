@@ -15,18 +15,21 @@ struct AQ_Question_2: View {
                 VStack {
                     Text("Question 2: ")
                         .font(.title)
-                    Text("Insert question here...")
-                    Button("choice A") {
+                    Text("What is NOT a way to help prevent climate change?")
+                    Button("Using renewable energy") {
                         right = "choice A" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice B") {
+                    Button("Taking public transport") {
                         right = "choice B" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice C") {
+                    Button("Saving energy") {
                         right = "choice C" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    if(right == "choice A" || right == "choice B") { Text("Sorry, wrong answer! Go back and check the websites again.")}
-                    else if(right == "choice C") {
+                    Button("Traveling often") {
+                        right = "choice D" }
+                    .buttonStyle(BorderedProminentButtonStyle())
+                    if(right == "choice A" || right == "choice B" || right == "choice C") { Text("Sorry, wrong answer! Go back and check the websites again.")}
+                    else if(right == "choice D") {
                         Text("Right, good job!")}
                     NavigationLink(destination: AQ_Question_3()) {
                         Text("Next Question ➡️")

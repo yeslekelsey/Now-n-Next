@@ -15,18 +15,21 @@ struct AQ_Question_3: View {
                 VStack {
                     Text("Question 3: ")
                         .font(.title)
-                    Text("Insert question here...")
-                    Button("choice A") {
+                    Text("Which of these is the best way to contact a legislator?")
+                    Button("Respectfully call for specific action") {
                         right = "choice A" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice B") {
+                    Button("Use informal language to lighten the mood ") {
                         right = "choice B" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice C") {
+                    Button("Demand that they agree with your views ") {
                         right = "choice C" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    if(right == "choice A" || right == "choice B") { Text("Sorry, wrong answer! Go back and check the websites again.")}
-                    else if(right == "choice C") {
+                    Button("Write a long essay arguing your views") {
+                        right = "choice D" }
+                    .buttonStyle(BorderedProminentButtonStyle())
+                    if(right == "choice B" || right == "choice C" || right == "choice D") { Text("Sorry, wrong answer! Go back and check the websites again.")}
+                    else if(right == "choice A") {
                         Text("Right, good job!")}
                     NavigationLink(destination: Civil_Engagement()) {
                         Text("Thank you for taking our quiz! \nBack to Advocacy ➡️")

@@ -15,15 +15,16 @@ struct AQ_Question_1: View {
                 VStack {
                     Text("Question 1: ")
                         .font(.title)
-                    Text("Insert question here...")
-                    Button("choice A") {
+                    Text("What is global warming?")
+                    Button("The process in which a planet becomes warmer by orbiting closer to the sun") {
                         right = "choice A" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice B") {
+                    Button("The Earth becoming warmer by melting the ice") {
                         right = "choice B" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice C") {
+                    Button("The long-term heating of Earth’s surface due to human activities") {
                         right = "choice C" }
+                    .buttonStyle(BorderedProminentButtonStyle())
                     .buttonStyle(BorderedProminentButtonStyle())
                     if(right == "choice A" || right == "choice B") { Text("Sorry, wrong answer! Go back and check the websites again.")}
                     else if(right == "choice C") {
