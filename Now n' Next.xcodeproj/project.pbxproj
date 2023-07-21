@@ -22,14 +22,14 @@
 		3CCDB7FD2A6AE48F00B1A145 /* Health and Wellness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB7FC2A6AE48D00B1A145 /* Health and Wellness.swift */; };
 		3CCDB7FF2A6AE4A800B1A145 /* Civil Engagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB7FE2A6AE4A800B1A145 /* Civil Engagement.swift */; };
 		3CCDB8012A6AE50A00B1A145 /* BQ Question 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB8002A6AE50A00B1A145 /* BQ Question 3.swift */; };
+		3CCDB8032A6AE5AF00B1A145 /* HQ Question 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB8022A6AE5AF00B1A145 /* HQ Question 1.swift */; };
+		3CCDB8052A6AE5C000B1A145 /* HQ Question 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB8042A6AE5C000B1A145 /* HQ Question 2.swift */; };
+		3CCDB8072A6AE5D100B1A145 /* HQ Question 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCDB8062A6AE5D100B1A145 /* HQ Question 3.swift */; };
 		3CCE00862A68266D00853935 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00852A68266D00853935 /* Persistence.swift */; };
 		3CCE00892A68276500853935 /* Now n' Next.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */; };
 		3CDC79DD2A69807000F41DE1 /* AQ Question 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC79DC2A69807000F41DE1 /* AQ Question 1.swift */; };
 		3CDC79E02A69857500F41DE1 /* AQ Question 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC79DF2A69857500F41DE1 /* AQ Question 2.swift */; };
 		3CDC79E22A6985E700F41DE1 /* AQ Question 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC79E12A6985E700F41DE1 /* AQ Question 3.swift */; };
-		3CDC79E62A6986A400F41DE1 /* HQ Question 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC79E52A6986A400F41DE1 /* HQ Question 1.swift */; };
-		3CDC79E82A6986B200F41DE1 /* HQ Question 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC79E72A6986B200F41DE1 /* HQ Question 2.swift */; };
-		3CDC79EA2A6986CA00F41DE1 /* HQ Question 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC79E92A6986CA00F41DE1 /* HQ Question 3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,14 +69,14 @@
 		3CCDB7FC2A6AE48D00B1A145 /* Health and Wellness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Health and Wellness.swift"; path = "../Health and Wellness.swift"; sourceTree = "<group>"; };
 		3CCDB7FE2A6AE4A800B1A145 /* Civil Engagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Civil Engagement.swift"; path = "../../../Downloads/Civil Engagement.swift"; sourceTree = "<group>"; };
 		3CCDB8002A6AE50A00B1A145 /* BQ Question 3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BQ Question 3.swift"; path = "../../../../Downloads/BQ Question 3.swift"; sourceTree = "<group>"; };
+		3CCDB8022A6AE5AF00B1A145 /* HQ Question 1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HQ Question 1.swift"; path = "../../../../Downloads/HQ Question 1.swift"; sourceTree = "<group>"; };
+		3CCDB8042A6AE5C000B1A145 /* HQ Question 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HQ Question 2.swift"; path = "../../../../Downloads/HQ Question 2.swift"; sourceTree = "<group>"; };
+		3CCDB8062A6AE5D100B1A145 /* HQ Question 3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HQ Question 3.swift"; path = "../../../../Downloads/HQ Question 3.swift"; sourceTree = "<group>"; };
 		3CCE00852A68266D00853935 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3CCE00882A68276400853935 /* Now n' Next.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Now n' Next.xcdatamodel"; sourceTree = "<group>"; };
 		3CDC79DC2A69807000F41DE1 /* AQ Question 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AQ Question 1.swift"; sourceTree = "<group>"; };
 		3CDC79DF2A69857500F41DE1 /* AQ Question 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AQ Question 2.swift"; sourceTree = "<group>"; };
 		3CDC79E12A6985E700F41DE1 /* AQ Question 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AQ Question 3.swift"; sourceTree = "<group>"; };
-		3CDC79E52A6986A400F41DE1 /* HQ Question 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HQ Question 1.swift"; sourceTree = "<group>"; };
-		3CDC79E72A6986B200F41DE1 /* HQ Question 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HQ Question 2.swift"; sourceTree = "<group>"; };
-		3CDC79E92A6986CA00F41DE1 /* HQ Question 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HQ Question 3.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,14 +133,14 @@
 				3CCE00872A68276400853935 /* Now n' Next.xcdatamodeld */,
 				3C72F3AF2A65BBFE00F46F16 /* Home.swift */,
 				3CCDB7FC2A6AE48D00B1A145 /* Health and Wellness.swift */,
-				3CCDB7FE2A6AE4A800B1A145 /* Civil Engagement.swift */,
 				3CDC79E42A69868500F41DE1 /* Health Quiz */,
+				3CCDB7FE2A6AE4A800B1A145 /* Civil Engagement.swift */,
+				3CDC79DE2A69843000F41DE1 /* Advocacy Quiz */,
 				3CCE00852A68266D00853935 /* Persistence.swift */,
 				3CCDB7EA2A69EEBE00B1A145 /* Journal.swift */,
 				3CCDB7DB2A69905E00B1A145 /* Planning For Future.swift */,
 				3CCDB7F22A6AE3D100B1A145 /* Budgeting Quiz */,
 				3CCDB7DD2A69911700B1A145 /* BudgetQuiz.swift */,
-				3CDC79DE2A69843000F41DE1 /* Advocacy Quiz */,
 				3C72F3892A65BBDF00F46F16 /* Assets.xcassets */,
 				3C72F38B2A65BBDF00F46F16 /* Preview Content */,
 			);
@@ -195,9 +195,9 @@
 		3CDC79E42A69868500F41DE1 /* Health Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				3CDC79E52A6986A400F41DE1 /* HQ Question 1.swift */,
-				3CDC79E72A6986B200F41DE1 /* HQ Question 2.swift */,
-				3CDC79E92A6986CA00F41DE1 /* HQ Question 3.swift */,
+				3CCDB8022A6AE5AF00B1A145 /* HQ Question 1.swift */,
+				3CCDB8042A6AE5C000B1A145 /* HQ Question 2.swift */,
+				3CCDB8062A6AE5D100B1A145 /* HQ Question 3.swift */,
 			);
 			path = "Health Quiz";
 			sourceTree = "<group>";
@@ -340,20 +340,20 @@
 			files = (
 				3CDC79E02A69857500F41DE1 /* AQ Question 2.swift in Sources */,
 				3CDC79DD2A69807000F41DE1 /* AQ Question 1.swift in Sources */,
+				3CCDB8032A6AE5AF00B1A145 /* HQ Question 1.swift in Sources */,
 				3CCDB8012A6AE50A00B1A145 /* BQ Question 3.swift in Sources */,
 				3CCDB7F92A6AE47B00B1A145 /* Civil Engagement.swift in Sources */,
+				3CCDB8052A6AE5C000B1A145 /* HQ Question 2.swift in Sources */,
+				3CCDB8072A6AE5D100B1A145 /* HQ Question 3.swift in Sources */,
 				3CCDB7EB2A69EEBE00B1A145 /* Journal.swift in Sources */,
-				3CDC79EA2A6986CA00F41DE1 /* HQ Question 3.swift in Sources */,
 				3CCDB7DC2A69905E00B1A145 /* Planning For Future.swift in Sources */,
 				3C72F3B02A65BBFE00F46F16 /* Home.swift in Sources */,
-				3CDC79E82A6986B200F41DE1 /* HQ Question 2.swift in Sources */,
 				3CCDB7FD2A6AE48F00B1A145 /* Health and Wellness.swift in Sources */,
 				3CDC79E22A6985E700F41DE1 /* AQ Question 3.swift in Sources */,
 				3CCE00862A68266D00853935 /* Persistence.swift in Sources */,
 				3CCDB7FF2A6AE4A800B1A145 /* Civil Engagement.swift in Sources */,
 				3C72F3862A65BBDE00F46F16 /* Now_n__NextApp.swift in Sources */,
 				3CCDB7DE2A69911700B1A145 /* BudgetQuiz.swift in Sources */,
-				3CDC79E62A6986A400F41DE1 /* HQ Question 1.swift in Sources */,
 				3CCE00892A68276500853935 /* Now n' Next.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
