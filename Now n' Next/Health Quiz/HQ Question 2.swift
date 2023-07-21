@@ -8,25 +8,27 @@
 import SwiftUI
 
 struct HQ_Question_2: View {
-    @State private var right = "choice C"
+    @State private var right = ""
     var body: some View {
         NavigationStack {
             ZStack {
+                Color(red: 0.98039215686, green: 0.81960784313, blue: 0.57647058823)
+                    .edgesIgnoringSafeArea(.all)
                 VStack {
                     Text("Question 2: ")
                         .font(.title)
-                    Text("Insert question here...")
-                    Button("choice A") {
+                    Text("What is something you can do to improve your mental health?")
+                    Button("Plan new things to look forward to") {
                         right = "choice A" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice B") {
+                    Button("Eat whatever junk food you want") {
                         right = "choice B" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice C") {
+                    Button("Using substances to cope with difficult feelings") {
                         right = "choice C" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    if(right == "choice A" || right == "choice B") { Text("Sorry, wrong answer! Go back and check the websites again.")}
-                    else if(right == "choice C") {
+                    if(right == "choice B" || right == "choice C") { Text("Sorry, wrong answer! Go back and check the websites again.")}
+                    else if(right == "choice A") {
                         Text("Right, good job!")}
                     NavigationLink(destination: HQ_Question_3()) {
                         Text("Next Question ➡️")
