@@ -8,25 +8,27 @@
 import SwiftUI
 
 struct HQ_Question_3: View {
-    @State private var right = "choice C"
+    @State private var right = ""
     var body: some View {
         NavigationStack {
             ZStack {
+                Color(red: 0.98039215686, green: 0.81960784313, blue: 0.57647058823)
+                    .edgesIgnoringSafeArea(.all)
                 VStack {
                     Text("Question 3: ")
                         .font(.title)
-                    Text("Insert question here...")
-                    Button("choice A") {
+                    Text("Should you talk to someone for support?")
+                    Button("Yes, but only when you feel like it.") {
                         right = "choice A" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice B") {
+                    Button("Yes, and regularly to avoid bottling up our emotions") {
                         right = "choice B" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    Button("choice C") {
+                    Button("No, people cannot be trusted") {
                         right = "choice C" }
                     .buttonStyle(BorderedProminentButtonStyle())
-                    if(right == "choice A" || right == "choice B") { Text("Sorry, wrong answer! Go back and check the websites again.")}
-                    else if(right == "choice C") {
+                    if(right == "choice A" || right == "choice C") { Text("Sorry, wrong answer! Go back and check the websites again.")}
+                    else if(right == "choice B") {
                         Text("Right, good job!")}
                     NavigationLink(destination: Health_and_Wellness()) {
                         Text("Thank you for taking our quiz! \nBack to Health & Wellness ➡️")
